@@ -6,7 +6,7 @@
 
 // console.log(a);
 
-const listProd = [
+var listProd = [
     {
         nome: "chocolate",
         valor: 12.00
@@ -20,13 +20,15 @@ const listProd = [
         valor : 2.80
     }
 ] 
-const idPosicao = parseInt(r.question("Digite um número de 0 a 2"));
+var idPosicao = parseInt(r.question("Digite um número de 0 a 2"));
 
-const idPorc = parseInt(r.question("qual o desconto em %?"));
+var idPorc = parseInt(r.question("digite uma porcentagem: "));
 
-console.log(listProd[2])
+var idProdSelecionado = listProd[idPosicao];
 
+var descTotal = idProdSelecionado.valor * (idPorc / 100);
 
+console.log("O produto " + idProdSelecionado.nome + " com desconto é R$" + descTotal.toFixed(2));
 
 
 
