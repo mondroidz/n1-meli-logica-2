@@ -40,5 +40,4 @@ Quando os funcionários estiverem reorganizando as prateleiras, eles
      da validade." caso produto seja congelado e com 5% 
      nos de dias para vencer;
 
-    - Printar a mensagem "Produto longe do vencimento." 
-    duto esteja com mais de 10% dos dias para vencer;
+    - Printar a mensagem "Produto longe do vencimento." caso não contemple as outras condições.
